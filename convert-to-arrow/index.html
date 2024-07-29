@@ -40,23 +40,19 @@
             setBackgroundColorById("body", "red");
         };
         
-        document.getElementById("hover-this").onmouseout = () => {
-            setBackgroundColorById("body", "white");
-        };
+        document.getElementById("hover-this").onmouseout = () =>setBackgroundColorById("body", "white");
+        
         var setcolor=document.getElementById("set-color");
 
 
-        const getValueFromId = (id) => {
-            return document.getElementById(id).value;
-        };
+        const getValueFromId = id => document.getElementById(id).value;
         
-        const setBackgroundColorById = (id, color) => {
-            document.getElementById(id).style.backgroundColor = color;
-        };
         
-        const mouseOverFunction = (element) => {
-            elemen.style.backgroundColor = "black";
-        };
+        const setBackgroundColorById = (id, color) => document.getElementById(id).style.backgroundColor = color;
+      
+        
+        const mouseOverFunction = (element) => elemen.style.backgroundColor = "black";
+       
 
         setcolor.addEventListener("click", () => {
             const colorInputValue = document.getElementById("color-input").value;
