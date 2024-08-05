@@ -1,0 +1,35 @@
+
+
+.formStyle {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.labelStyle {
+    font-size: 1.7em;
+    margin-right: 20px;
+}
+
+.boxStyle {
+    margin: 50px auto 10px 10px;
+    display: inline-block;
+}
+
+.inputStyle {
+    background-color: white;
+    height: 35px;
+    width: 300px;
+    font-size: 1.5em;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.buttonStyle {
+    background-color: white;
+    height: 40px;
+    width: 100px;
+    font-size: 1.2em;
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-top: -5px;
+}
